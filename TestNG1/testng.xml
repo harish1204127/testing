@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning" parallel="tests">
+
+
+    
+
+
+<test name="Learning assertions">
+    <classes>
+        <class name="testcases.assertion" ></class>  
+    </classes>
+</test>
+
+<test name="login Login">
+    <classes>
+        <class name="testcases.logintest" ></class>  
+    </classes>
+</test>
+
+<test name="Selling Books">
+    <classes>
+        <class name="testcases.testcases" ></class>  
+    </classes>
+</test>
+
+
+</suite>

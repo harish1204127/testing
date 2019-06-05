@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Learning]" parallel="tests">
+  <test name="Learning assertions(failed)" parallel="tests">
+    <classes>
+      <class name="testcases.assertion">
+        <methods>
+          <include name="asserttest"/>
+        </methods>
+      </class> <!-- testcases.assertion -->
+    </classes>
+  </test> <!-- Learning assertions(failed) -->
+</suite> <!-- Failed suite [TestNG Learning] -->
