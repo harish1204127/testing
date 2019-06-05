@@ -11,7 +11,6 @@
     <property name="test.dest" value="${ws.home}/build"/>
     <property name="test.src" value="${ws.home}/src"/>
 	<property name="ng.result" value="test-output"/>
-    
     <!--target name="start-selenium-server">
         <java jar="${ws.home}/lib/selenium-server.jar"/>
     </target-->
